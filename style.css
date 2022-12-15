@@ -23,3 +23,20 @@ h1 {
 #ff {
     font-size: 23px;
 }
+
+.card-body {
+    background-color: rgb(230, 230, 230);
+}
+
+#left {
+    font-size: 20px;
+}
+
+#center {
+    font-size: 20px;
+}
+
+#right {
+    font-size: 20px;
+   
+}
