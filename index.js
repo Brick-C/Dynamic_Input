@@ -10,6 +10,9 @@ const colorh = document.querySelector('.form-control-hcolor')
 const colorb = document.querySelector('.form-control-bcolor')
 const ffh = document.querySelector('.ffh')
 const ffb = document.querySelector('.ffb')
+const dark = document.querySelector('form-check-input')
+
+
 
 input.onkeyup = () => {
     h1.innerHTML = input.value
