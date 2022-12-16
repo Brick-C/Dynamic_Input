@@ -10,7 +10,7 @@
 </head>
 <body>
 
-    <div class="container mx-4 my-5">
+    <div class="container mx-3 my-5">
         <div class="row">
             <div class="col-md-5">
                 <div class="card shadow">
@@ -25,7 +25,12 @@
                     </div> <br>
 
                     <div class="form-group">
-                        <label id="text-align">Text Align</label><br>
+                        <label id="body">Paragraph</label>
+                        <textarea id="my-text" placeholder="Type something" cols="49" rows="5"></textarea>
+                    </div> <br>
+
+                    <div class="form-group">
+                        <label id="text-align-h">Text Align ~ <span>Head</span> </label><br>
                         <label id="left"> 
                              <input class="align" checked name="align" type="radio" value="Left">
                             Left
@@ -43,22 +48,64 @@
                     </div> <br>
 
                     <div class="form-group">
-                        <label class="form-label">Size</label>
+                        <label id="text-align-b">Text Align ~ <span>Body</span> </label><br>
+                        <label id="left"> 
+                             <input class="alignb" checked name="alignb" type="radio" value="Left">
+                            Left
+                        </label>
+
+                        <label id="center">
+                            <input class="alignb" name="alignb" type="radio" value="Center">
+                            Center 
+                        </label>
+
+                        <label id="right">
+                            <input class="alignb" name="alignb" type="radio" value="Right">
+                            Right 
+                        </label>
+                    </div> <br>
+
+                    <div class="form-group">
+                        <label class="form-label-size">Size ~ <span>Head</span> </label>
                         <input class="w-100 size" type="range" step="1px" min="0" max="100" value="25">
                     </div>
 
                     <div class="form-group">
-                        <label for="" class="form-label">Color Picker</label>
-                        <input type="color" class="form-control form-control-color" value="#563d7c">
+                        <label class="form-label-sizeb">Size ~ <span>Body</span> </label>
+                        <input class="w-100 sizeb" type="range" step="1px" min="0" max="100" value="25">
+                    </div> <br>
+
+                    <div class="form-group">
+                        <label for="" class="form-label">Color ~ <span>Head</span> </label>
+                        <input type="color" class="form-control form-control-hcolor" value="#563d7c">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="" class="form-label">Color ~ <span>Body</span> </label>
+                        <input type="color" class="form-control form-control-bcolor" value="#b2b2b2">
                     </div><br>
 
                     <div class="form-group">
-                        <label id="ff">Font-Family</label><br>
-                        <select class="form-select ff">
+                        <label id="ffh">Font-Family ~ Head</label><br>
+                        <select class="form-select ffh">
                             <option selected>--Select Menu--</option>
                             <option value="quicksand">Quicksand</option>
                             <option value="abel">Abel</option>
-                            <option value="dancing Script">Dancing Script</option>
+                            <option value="dancing script">Dancing Script</option>
+                            <option value="unbounded">Unbounded</option>
+                            <option value="la belle aurore">La Belle Aurore</option>
+                            <option value="permanent marker">Permanent Marker</option>
+                          </select>
+                    </div><br>
+
+                    <div class="form-group">
+                        <label id="ffb">Font-Family ~ Body</label><br>
+                        <select class="form-select ffb">
+                            <option selected>--Select Menu--</option>
+                            <option value="montserrat">Montserrat</option>
+                            <option value="robot">Roboto</option>
+                            <option value="dancing script">Dancing Script</option>
+                            <option value="amatic sc">Amatic SC</option>
                           </select>
                     </div>
                 </div>
@@ -69,6 +116,7 @@
             <div class="col-md-7">
                 <section>
                     <h1 class="holder"></h1>
+                    <p class="store"></p>
                 </section>
             </div>
         </div>

@@ -1,26 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Abel&family=Dancing+Script&family=Quicksand:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Dancing+Script&family=La+Belle+Aurore&family=Permanent+Marker&family=Quicksand:wght@400;700&family=Unbounded:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script&family=Montserrat:wght@300&family=Roboto:ital,wght@0,300;1,100&display=swap');
 
 
 
 h1 {
     text-align: center;
-    font-style: oblique;
+
 }
+
 
 #head {
     font-size: 25px;
     
 }
 
-#text-align {
+#body {
+
     font-size: 24px;
 }
 
-.form-label {
+textarea {
+    display: block;
+    width: 100%;
+    color: #202020;
+    border: 1.5px solid #b2b2b2;
+    border-radius: 5px;
+}
+
+#text-align-h {
     font-size: 24px;
 }
 
-#ff {
+#text-align-h span {
+    font-style: italic;
+    font-weight: 500;
+}
+
+#text-align-b {
+    font-size: 24px;
+}
+
+#text-align-b span {
+    font-style: italic;
+    font-weight: 500;
+}
+
+.form-label-size {
+    font-size: 23px;
+}
+
+.form-label-sizeb {
+    font-size: 23px;
+}
+
+#ffh {
+    font-size: 23px;
+}
+
+#ffb {
     font-size: 23px;
 }
 
